@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Home"
-    url: https://dracolich-kr.github.io/index
+    url: /index.html
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -9,4 +9,4 @@ main:
   # - title: "Sample Collections"
   #   url: /collection-archive/
   - title: "Category"
-    url: /Category/
+    url: /categories/
