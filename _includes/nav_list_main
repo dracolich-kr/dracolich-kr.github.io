@@ -8,7 +8,7 @@
             📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       <li>
-        <span class="nav__sub-title">일상</span>
+        <span class="nav__sub-title">Life</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Daily" %}
@@ -17,25 +17,21 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">C++/C#</span>
+        <span class="nav__sub-title">C++ / C#</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cpp" %}
-                        <li><a href="/categories/cpp" class="">C ++ ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cpp" class="">C++ ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "C Sharp" %}
+                    {% if category[0] == "CSharp" %}
                         <li><a href="/categories/csharp" class="">C # ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-      </li>
-      <li>	
-            <br>      
-            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fansohxxn.github.io&count_bg=%23FFCC35&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false">
       </li>
   </ul>
 </nav>
