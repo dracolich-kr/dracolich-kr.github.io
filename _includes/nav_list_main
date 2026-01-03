@@ -32,8 +32,31 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Database" %}
-                        <li><a href="/categories/database" class="">Database ({{category[1].size}})</a></li>
+                    {% if category[0] == "Cpp" %}
+                        <li><a href="/categories/cpp" class="">C++ ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Database</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "MySql" %}
+                        <li><a href="/categories/mysql" class="">MySql ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Git</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "GitHub" %}
+                        <li><a href="/categories/github" class="">GitHub ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "GitBlog" %}
+                        <li><a href="/categories/gitblog" class="">GitBlog ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

@@ -1,13 +1,19 @@
 var store = [{
-        "title": "첫 포스트",
-        "excerpt":"아직 재대로 올라가진 않았지만 첫 포스트 이것저것 가지고 놀아보자.  ","categories": ["Daily"],
+        "title": "첫 로그",
+        "excerpt":"작업한 내용이나 공부했던 내용들을 기록하기 위한 블로그 생성   꾸준히 올려보도록 노력해보자..   ","categories": ["Daily"],
         "tags": ["Daily"],
         "url": "/daily/first_post/",
         "teaser": null
       },{
-        "title": "Mysql ",
-        "excerpt":"MySql  ","categories": ["Database"],
-        "tags": ["Database","Mysql"],
-        "url": "/database/mysql/",
+        "title": "[MySql] 기본 정보 설명",
+        "excerpt":"MySql   RDB(Relational Database) 관계형 데이터 베이스이다.   참고 사이트      공식 사이트   GUI 개발 툴     MySql Workbench   DBeaver   HeidiSQL   ","categories": ["MySql"],
+        "tags": ["Database","MySql"],
+        "url": "/mysql/mysql/",
+        "teaser": null
+      },{
+        "title": null,
+        "excerpt":"   GitHub Blog에서 엔터 적용 방법     &lt;br&gt;을 입력. 맨끝줄에 스페이스바 두번           ","categories": [],
+        "tags": null,
+        "url": "/2025-01-03-Tip/",
         "teaser": null
       }]

@@ -1,2 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-01-03T18:05:27+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">기록 보관소</title><subtitle></subtitle><author><name>이 화영</name></author><entry><title type="html">Mysql</title><link href="http://localhost:4000/database/mysql/" rel="alternate" type="text/html" title="Mysql" /><published>2026-01-03T00:00:00+09:00</published><updated>2026-01-03T00:00:00+09:00</updated><id>http://localhost:4000/database/mysql</id><content type="html" xml:base="http://localhost:4000/database/mysql/"><![CDATA[<h2 id="mysql">MySql</h2>]]></content><author><name>이 화영</name></author><category term="Database" /><category term="Database" /><category term="Mysql" /></entry><entry><title type="html">첫 포스트</title><link href="http://localhost:4000/daily/first_post/" rel="alternate" type="text/html" title="첫 포스트" /><published>2026-01-02T00:00:00+09:00</published><updated>2026-01-02T00:00:00+09:00</updated><id>http://localhost:4000/daily/first_post</id><content type="html" xml:base="http://localhost:4000/daily/first_post/"><![CDATA[<p>아직 재대로 올라가진 않았지만 첫 포스트
-이것저것 가지고 놀아보자.</p>]]></content><author><name>이 화영</name></author><category term="Daily" /><category term="Daily" /></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-01-03T23:53:11+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">기록 보관소</title><subtitle></subtitle><author><name>이 화영</name></author><entry><title type="html"></title><link href="http://localhost:4000/2025-01-03-Tip/" rel="alternate" type="text/html" title="" /><published>2026-01-03T23:53:11+09:00</published><updated>2026-01-03T23:53:11+09:00</updated><id>http://localhost:4000/2025-01-03-Tip</id><content type="html" xml:base="http://localhost:4000/2025-01-03-Tip/"><![CDATA[<ol>
+  <li>GitHub Blog에서 엔터 적용 방법
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;br&gt;을 입력.
+맨끝줄에 스페이스바 두번
+</code></pre></div>    </div>
+  </li>
+</ol>]]></content><author><name>이 화영</name></author></entry><entry><title type="html">[MySql] 기본 정보 설명</title><link href="http://localhost:4000/mysql/mysql/" rel="alternate" type="text/html" title="[MySql] 기본 정보 설명" /><published>2026-01-03T00:00:00+09:00</published><updated>2026-01-03T00:00:00+09:00</updated><id>http://localhost:4000/mysql/mysql</id><content type="html" xml:base="http://localhost:4000/mysql/mysql/"><![CDATA[<h2 id="mysql">MySql</h2>
+
+<p>RDB(Relational Database) 관계형 데이터 베이스이다.</p>
+
+<h3 id="참고-사이트">참고 사이트</h3>
+
+<ul>
+  <li><a href="https://www.mysql.com/">공식 사이트</a></li>
+</ul>
+
+<h4 id="gui-개발-툴">GUI 개발 툴</h4>
+<ul>
+  <li><a href="https://dev.mysql.com/downloads/workbench/">MySql Workbench</a></li>
+  <li><a href="https://dbeaver.io/">DBeaver</a></li>
+  <li><a href="https://www.heidisql.com/download.php">HeidiSQL</a></li>
+</ul>]]></content><author><name>이 화영</name></author><category term="MySql" /><category term="Database" /><category term="MySql" /></entry><entry><title type="html">첫 로그</title><link href="http://localhost:4000/daily/first_post/" rel="alternate" type="text/html" title="첫 로그" /><published>2026-01-02T00:00:00+09:00</published><updated>2026-01-02T00:00:00+09:00</updated><id>http://localhost:4000/daily/first_post</id><content type="html" xml:base="http://localhost:4000/daily/first_post/"><![CDATA[<p>작업한 내용이나 공부했던 내용들을 기록하기 위한 블로그 생성
+<br />
+꾸준히 올려보도록 노력해보자..</p>]]></content><author><name>이 화영</name></author><category term="Daily" /><category term="Daily" /></entry></feed>
