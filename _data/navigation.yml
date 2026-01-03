@@ -15,19 +15,18 @@ main:
   - title: "Tags"
     url: /tags/
 
-sidebar-category:
-  - title: "Life"
-    style: dropdown
-    children:
-      - title: "Daily"
-        url: /categories/daily
+#sidebar-category:
+#  - title: "Life"
+#    children:
+#      - title: "Daily"
+#        url: /categories/daily
 #      - title: "Travel"
 #        url: /categories/travel
-  - title: "Programming"
-    children:
+#  - title: "Programming"
+#    children:
 #      - title: "Cpp"
 #        url: /categories/cpp/
-      - title: "C#"
-        url: /categories/csharp/
+#      - title: "C#"
+#        url: /categories/csharp/
 #      - title : "Database"
 #        url: /categories/database/

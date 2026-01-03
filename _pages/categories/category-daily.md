@@ -4,8 +4,7 @@ layout: archive
 permalink: /categories/daily
 author_profile: true
 types: posts
-sidebar:
-    nav: "sidebar-category"
+sidebar_main: true
 ---
 
 {% assign posts = site.categories['Daily']%}

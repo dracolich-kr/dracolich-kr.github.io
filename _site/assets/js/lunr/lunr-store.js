@@ -4,4 +4,10 @@ var store = [{
         "tags": ["Daily"],
         "url": "/daily/first_post/",
         "teaser": null
+      },{
+        "title": "Mysql ",
+        "excerpt":"MySql  ","categories": ["Database"],
+        "tags": ["Database","Mysql"],
+        "url": "/database/mysql/",
+        "teaser": null
       }]

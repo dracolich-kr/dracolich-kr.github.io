@@ -247,55 +247,56 @@
 </div>
 
   
-    
-      
-      
-      
-      
-    
-    
-      <nav class="nav__list">
+
   
+    <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
+
+
+
+<nav class="nav__list">
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">Toggle Menu</label>
-  <ul class="nav__items">
-    
-      
-      
-        <li>
-          
-            <span class="nav__sub-title">Life</span>
-          
-
-          
-          <ul>
-            
-              <li><a href="/categories/daily">Daily</a></li>
-            
-          </ul>
-          
-        </li>
-      
-        <li>
-          
-            <span class="nav__sub-title">Programming</span>
-          
-
-          
-          <ul>
-            
-              <li><a href="/categories/csharp/">C#</a></li>
-            
-          </ul>
-          
-        </li>
-      
-    
+  <label for="ac-toc"></label>
+  <ul class="nav__items" id="category_tag_menu">
+      <!--전체 글 수-->
+      <li>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">2</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+      </li>
+      <li>
+        <span class="nav__sub-title">Life</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                
+                    
+                        <li><a href="/categories/daily" class="">Daily (1)</a></li>
+                    
+                
+                    
+                
+            </ul>
+        <span class="nav__sub-title">Programming</span>
+            <ul>
+                
+                    
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                        <li><a href="/categories/database" class="">Database (1)</a></li>
+                    
+                
+            </ul>
+      </li>
   </ul>
 </nav>
-
-    
   
+
   </div>
 
 
@@ -321,6 +322,14 @@
         </li>
       
     
+      
+        <li>
+          <a href="#database">
+            <strong>Database</strong> <span class="taxonomy__count">1</span>
+          </a>
+        </li>
+      
+    
   
 </ul>
 
@@ -342,6 +351,56 @@
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
         <a href="/daily/first_post/" rel="permalink">첫 포스트
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+          
+        </div>
+        <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
+      </section>
+    
+  
+    
+      <section id="database" class="taxonomy__section">
+        <h2 class="archive__subtitle">Database</h2>
+        <div class="entries-list">
+          
+            
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/database/mysql/" rel="permalink">Mysql
 </a>
       
     </h2>
