@@ -11,9 +11,9 @@ var store = [{
         "url": "/mysql/mysql/",
         "teaser": null
       },{
-        "title": null,
-        "excerpt":"   GitHub Blog에서 엔터 적용 방법     &lt;br&gt;을 입력. 맨끝줄에 스페이스바 두번           ","categories": [],
-        "tags": null,
-        "url": "/2025-01-03-Tip/",
+        "title": "Git Blog 자잘한 내용정리",
+        "excerpt":"   GitHub Blog에서 엔터 적용 방법     &lt;br&gt;을 입력. 맨끝줄에 스페이스바 두번           ","categories": ["GitBlog"],
+        "tags": ["Git","GitBlog"],
+        "url": "/gitblog/Tip/",
         "teaser": null
       }]
