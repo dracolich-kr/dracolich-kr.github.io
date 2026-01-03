@@ -56,7 +56,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "GitBlog" %}
-                        <li><a href="/categories/gitblog" class="">GitBlog ({{category[1].size}})</a></li>
+                        <li><a href="/categories/gitblog" class="">GitHub-Blog ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
