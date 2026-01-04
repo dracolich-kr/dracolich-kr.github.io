@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "Home"
+  - title: "🏠 Home"
     url: index.html
-  - title: "Category"
+  - title: "🗂️ Category"
     url: /categories/
-  - title: "Tags"
+  - title: "🏷️ Tags"
     url: /tags/

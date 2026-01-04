@@ -1,6 +1,6 @@
 var store = [{
         "title": "첫 로그",
-        "excerpt":"작업한 내용이나 공부했던 내용들을 기록하기 위한 블로그 생성   꾸준히 올려보도록 노력해보자..   ","categories": ["Daily"],
+        "excerpt":"작업한 내용이나 공부했던 내용들을 기록하기 위한 블로그 생성  꾸준히 올려보도록 노력해보자..   ","categories": ["Daily"],
         "tags": ["Daily"],
         "url": "/daily/first_post/",
         "teaser": null
