@@ -16,4 +16,10 @@ var store = [{
         "tags": ["Git","GitBlog"],
         "url": "/gitblog/Tip/",
         "teaser": null
+      },{
+        "title": "Replication",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "/replication/",
+        "teaser": null
       }]
