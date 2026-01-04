@@ -1,13 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-01-04T11:39:26+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">기록 보관소</title><subtitle></subtitle><author><name>이 화영</name></author><entry><title type="html">Git Blog 자잘한 내용정리</title><link href="http://localhost:4000/gitblog/Tip/" rel="alternate" type="text/html" title="Git Blog 자잘한 내용정리" /><published>2026-01-03T00:00:00+09:00</published><updated>2026-01-04T10:15:51+09:00</updated><id>http://localhost:4000/gitblog/Tip</id><content type="html" xml:base="http://localhost:4000/gitblog/Tip/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-01-04T15:51:11+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">기록 보관소</title><subtitle></subtitle><author><name>이 화영</name></author><entry><title type="html">Git Blog 자잘한 내용정리</title><link href="http://localhost:4000/gitblog/Tip/" rel="alternate" type="text/html" title="Git Blog 자잘한 내용정리" /><published>2026-01-03T00:00:00+09:00</published><updated>2026-01-04T10:15:51+09:00</updated><id>http://localhost:4000/gitblog/Tip</id><content type="html" xml:base="http://localhost:4000/gitblog/Tip/"><![CDATA[<ol>
   <li>GitHub Blog에서 줄바꿈 적용 방법</li>
 </ol>
 
 <ul>
   <li><code class="language-plaintext highlighter-rouge">&lt;br&gt;</code>를 입력해 줄바꿈 처리를 한다.</li>
   <li>맨 끝줄에 스페이스바를 두번 입력한다.</li>
-</ul>]]></content><author><name>이 화영</name></author><category term="GitBlog" /><category term="Git" /><category term="GitBlog" /></entry><entry><title type="html">[MySql] 기본 정보 설명</title><link href="http://localhost:4000/mysql/mysql/" rel="alternate" type="text/html" title="[MySql] 기본 정보 설명" /><published>2026-01-03T00:00:00+09:00</published><updated>2026-01-04T10:37:44+09:00</updated><id>http://localhost:4000/mysql/mysql</id><content type="html" xml:base="http://localhost:4000/mysql/mysql/"><![CDATA[<h2 id="mysql">MySql</h2>
+</ul>]]></content><author><name>이 화영</name></author><category term="GitBlog" /><category term="Git" /><category term="GitBlog" /></entry><entry><title type="html">[MySql] 기본 정보</title><link href="http://localhost:4000/mysql/mysql/" rel="alternate" type="text/html" title="[MySql] 기본 정보" /><published>2026-01-03T00:00:00+09:00</published><updated>2026-01-04T10:37:44+09:00</updated><id>http://localhost:4000/mysql/mysql</id><content type="html" xml:base="http://localhost:4000/mysql/mysql/"><![CDATA[<h2 id="개요">개요</h2>
+<p>RDB(Relational Database) 관계형 데이터 베이스이다.<br />
+MySql은 스토리지 엔진에 따라 다양한 데이터 저장 방식을 지원한다.<br />
+대표적으로 MyISAM, InnoDB 가 존재</p>
 
-<p>RDB(Relational Database) 관계형 데이터 베이스이다.</p>
+<h3 id="myisam">MyISAM</h3>
+<p>InnoDB가 나오기전에 사용되었던 기본 스토리지 엔진<br />
+쓰기 쉽고 가벼워서 기존엔 많이 사용하였지만 트랜잭션이 불가능하고 내용이 변경 삭제되는 경우 불필요한 데이터(OverHead)가 생겨서 InnoDB을 기본으로 변경하게 되었다.</p>
+
+<h3 id="innodb">InnoDB</h3>
+<p>MySql의 기본 스토리지 엔진이다.<br />
+행 수준의 잠금 및 다중 사용자들의 동시성을 보장한다.</p>
 
 <h3 id="참고-사이트">참고 사이트</h3>
 
@@ -20,6 +29,6 @@
   <li><a href="https://dev.mysql.com/downloads/workbench/">MySql Workbench</a></li>
   <li><a href="https://dbeaver.io/">DBeaver</a></li>
   <li><a href="https://www.heidisql.com/download.php">HeidiSQL</a></li>
-</ul>]]></content><author><name>이 화영</name></author><category term="MySql" /><category term="Database" /><category term="MySql" /></entry><entry><title type="html">첫 로그</title><link href="http://localhost:4000/daily/first_post/" rel="alternate" type="text/html" title="첫 로그" /><published>2026-01-02T00:00:00+09:00</published><updated>2026-01-02T00:00:00+09:00</updated><id>http://localhost:4000/daily/first_post</id><content type="html" xml:base="http://localhost:4000/daily/first_post/"><![CDATA[<p>작업한 내용이나 공부했던 내용들을 기록하기 위한 블로그 생성
+</ul>]]></content><author><name>이 화영</name></author><category term="MySql" /><category term="Database" /><category term="MySql" /></entry><entry><title type="html">첫 로그</title><link href="http://localhost:4000/daily/first_post/" rel="alternate" type="text/html" title="첫 로그" /><published>2026-01-02T00:00:00+09:00</published><updated>2026-01-03T23:53:24+09:00</updated><id>http://localhost:4000/daily/first_post</id><content type="html" xml:base="http://localhost:4000/daily/first_post/"><![CDATA[<p>작업한 내용이나 공부했던 내용들을 기록하기 위한 블로그 생성
 <br />
 꾸준히 올려보도록 노력해보자..</p>]]></content><author><name>이 화영</name></author><category term="Daily" /><category term="Daily" /></entry></feed>
