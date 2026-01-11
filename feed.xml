@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://dracolich-kr.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dracolich-kr.github.io/" rel="alternate" type="text/html" /><updated>2026-01-05T14:01:13+00:00</updated><id>https://dracolich-kr.github.io/feed.xml</id><title type="html">기록 보관소</title><subtitle></subtitle><author><name>이 화영</name></author><entry><title type="html">[MySql] 기본 정보</title><link href="https://dracolich-kr.github.io/mysql/mysql/" rel="alternate" type="text/html" title="[MySql] 기본 정보" /><published>2026-01-03T00:00:00+00:00</published><updated>2026-01-04T11:05:53+00:00</updated><id>https://dracolich-kr.github.io/mysql/mysql</id><content type="html" xml:base="https://dracolich-kr.github.io/mysql/mysql/"><![CDATA[<h2 id="개요">개요</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://dracolich-kr.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dracolich-kr.github.io/" rel="alternate" type="text/html" /><updated>2026-01-11T06:47:15+00:00</updated><id>https://dracolich-kr.github.io/feed.xml</id><title type="html">기록 보관소</title><subtitle></subtitle><author><name>이 화영</name></author><entry><title type="html">[MySql] MySql 이란?</title><link href="https://dracolich-kr.github.io/mysql/mysql/" rel="alternate" type="text/html" title="[MySql] MySql 이란?" /><published>2026-01-03T00:00:00+00:00</published><updated>2026-01-11T06:46:19+00:00</updated><id>https://dracolich-kr.github.io/mysql/mysql</id><content type="html" xml:base="https://dracolich-kr.github.io/mysql/mysql/"><![CDATA[<p><img src="/assets/images/mysql/logo.png" alt="logo" /></p>
+
+<h2 id="개요">개요</h2>
 <p>RDB(Relational Database) 관계형 데이터 베이스이다.<br />
-MySql은 스토리지 엔진에 따라 다양한 데이터 저장 방식을 지원한다.<br />
+MySql은 스토리지 엔진에 따라 다양한 데이터 저장 방식을 지원<br />
 대표적으로 MyISAM, InnoDB 가 존재</p>
 
 <h3 id="myisam">MyISAM</h3>
 <p>InnoDB가 나오기전에 사용되었던 기본 스토리지 엔진<br />
-쓰기 쉽고 가벼워서 기존엔 많이 사용하였지만 트랜잭션이 불가능하고 내용이 변경 삭제되는 경우 불필요한 데이터(OverHead)가 생겨서 InnoDB을 기본으로 변경하게 되었다.</p>
+사용 방법이 간편하지만 트랜잭션이 불가능하고 데이터가 삭제가 되었을 때<br />
+불필요한 데이터(OverHead)가 발생하여 현재는 InnoDB가 기본 스토리지 엔진으로 사용되고 있다.</p>
 
 <h3 id="innodb">InnoDB</h3>
 <p>MySql의 기본 스토리지 엔진이다.<br />
