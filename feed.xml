@@ -1,9 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://dracolich-kr.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dracolich-kr.github.io/" rel="alternate" type="text/html" /><updated>2026-01-11T06:47:15+00:00</updated><id>https://dracolich-kr.github.io/feed.xml</id><title type="html">기록 보관소</title><subtitle></subtitle><author><name>이 화영</name></author><entry><title type="html">[MySql] MySql 이란?</title><link href="https://dracolich-kr.github.io/mysql/mysql/" rel="alternate" type="text/html" title="[MySql] MySql 이란?" /><published>2026-01-03T00:00:00+00:00</published><updated>2026-01-11T06:46:19+00:00</updated><id>https://dracolich-kr.github.io/mysql/mysql</id><content type="html" xml:base="https://dracolich-kr.github.io/mysql/mysql/"><![CDATA[<p><img src="/assets/images/mysql/logo.png" alt="logo" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://dracolich-kr.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dracolich-kr.github.io/" rel="alternate" type="text/html" /><updated>2026-01-21T13:59:56+00:00</updated><id>https://dracolich-kr.github.io/feed.xml</id><title type="html">기록 보관소</title><subtitle></subtitle><author><name>이 화영</name></author><entry><title type="html">C# 프로젝트 폴더가 다른 위치에 있는 cs파일 참조 By Global Using</title><link href="https://dracolich-kr.github.io/mysql/tip/" rel="alternate" type="text/html" title="C# 프로젝트 폴더가 다른 위치에 있는 cs파일 참조 By Global Using" /><published>2026-01-21T00:00:00+00:00</published><updated>2026-01-21T13:59:07+00:00</updated><id>https://dracolich-kr.github.io/mysql/tip</id><content type="html" xml:base="https://dracolich-kr.github.io/mysql/tip/"><![CDATA[<p>기존 using 문의 경우 개별 파일마다 개별로 선언을 해서처리를 해야해서 매우 불편하고 사용하기 힘든 단점이 많은 기능이다.</p>
+
+<p>하지만 C# 10에 Global Using이 추가 되면서 이젠 프로젝트 단위로 하나의 cs 파일에 선언을 하면 다른 파일에서도 별도의 선언을 할 필요 없이 편하게 사용을 할 수 있게 되었다.</p>
+
+<p>주로 맴버 타입을 재정의 하는 용도로 나는 아래와 같이 사용하는데</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">global</span> <span class="k">using</span> <span class="nn">ActorIdx</span> <span class="p">=</span> <span class="n">Int32</span><span class="p">;</span>
+<span class="k">global</span> <span class="k">using</span> <span class="nn">UserName</span> <span class="p">=</span> <span class="kt">string</span><span class="p">;</span>
+
+</code></pre></div></div>
+
+<p>하지만 우리가 복수개의 프로젝트를 구성하는 경우 동일한 cs 파일을 매번 추가해야하는 단점이 있다.<br />
+프로젝트 파일에 다음과 같이 파일을 추가를 해놓으면 그래도 덜 불편하게 동일한 C# 프로젝트에서 타입 설정을 편하게 설정 할 수 있다.</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ItemGroup&gt;</span>
+  <span class="nt">&lt;Compile</span> <span class="na">Include=</span><span class="s">"..\OtherProject\DefineName.cs"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;Link&gt;</span>Shared\DefineName.cs<span class="nt">&lt;/Link&gt;</span>
+  <span class="nt">&lt;/Compile&gt;</span>
+<span class="nt">&lt;/ItemGroup&gt;</span>
+</code></pre></div></div>]]></content><author><name>이 화영</name></author><category term="MySql" /><category term="Database" /><category term="MySql" /></entry><entry><title type="html">[MySql] MySql Replication</title><link href="https://dracolich-kr.github.io/mysql/mysql-replication/" rel="alternate" type="text/html" title="[MySql] MySql Replication" /><published>2026-01-11T00:00:00+00:00</published><updated>2026-01-21T13:59:07+00:00</updated><id>https://dracolich-kr.github.io/mysql/mysql-replication</id><content type="html" xml:base="https://dracolich-kr.github.io/mysql/mysql-replication/"><![CDATA[<p><img src="/assets/images/mysql/logo.png" alt="logo" /></p>
+
+<h2 id="replication-이란">Replication 이란?</h2>
+<p>MySql의 운영을 할 때에는 기본적으로 복제(Replication)를 세팅을 하여 관리를 한다.<br />
+복제를 통해 몇가지 장점을 얻을 수 있다.</p>
+
+<ol>
+  <li>고가용성을 확보하여 데이터베이스의 안정성을 확보.</li>
+  <li>Write (Master) Read (Slave)를 구분하여 데이터베이스의 분산</li>
+  <li>부하가 있는 작업은 Slave에서 처리를 하여 Master에 부하를 감소</li>
+</ol>
+
+<p>등의 성능을 확보 할 수 있다.</p>]]></content><author><name>이 화영</name></author><category term="MySql" /><category term="Database" /><category term="MySql" /></entry><entry><title type="html">[MySql] MySql 이란?</title><link href="https://dracolich-kr.github.io/mysql/mysql/" rel="alternate" type="text/html" title="[MySql] MySql 이란?" /><published>2026-01-03T00:00:00+00:00</published><updated>2026-01-21T13:59:07+00:00</updated><id>https://dracolich-kr.github.io/mysql/mysql</id><content type="html" xml:base="https://dracolich-kr.github.io/mysql/mysql/"><![CDATA[<p><img src="/assets/images/mysql/logo.png" alt="logo" /></p>
 
 <h2 id="개요">개요</h2>
-<p>RDB(Relational Database) 관계형 데이터 베이스이다.<br />
+<p>1995년도에 발표된 RDBS(Relational Database System) 관계형 데이터 베이스이다.<br />
 MySql은 스토리지 엔진에 따라 다양한 데이터 저장 방식을 지원<br />
-대표적으로 MyISAM, InnoDB 가 존재</p>
+대표적으로 MyISAM, InnoDB 가 존재 한다.</p>
 
 <h3 id="myisam">MyISAM</h3>
 <p>InnoDB가 나오기전에 사용되었던 기본 스토리지 엔진<br />
@@ -14,13 +45,13 @@ MySql은 스토리지 엔진에 따라 다양한 데이터 저장 방식을 지�
 <p>MySql의 기본 스토리지 엔진이다.<br />
 행 수준의 잠금 및 다중 사용자들의 동시성을 보장한다.</p>
 
-<h3 id="참고-사이트">참고 사이트</h3>
+<h2 id="참고-사이트">참고 사이트</h2>
 
 <ul>
   <li><a href="https://www.mysql.com/">공식 사이트</a></li>
 </ul>
 
-<h4 id="gui-개발-툴">GUI 개발 툴</h4>
+<h3 id="gui-개발-툴">GUI 개발 툴</h3>
 <ul>
   <li><a href="https://dev.mysql.com/downloads/workbench/">MySql Workbench</a></li>
   <li><a href="https://dbeaver.io/">DBeaver</a></li>

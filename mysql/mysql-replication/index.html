@@ -10,19 +10,21 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Category - 기록 보관소</title>
+<!-- begin _includes/seo.html --><title>[MySql] MySql Replication - 기록 보관소</title>
 <meta name="description" content="">
 
 
   <meta name="author" content="이 화영">
   
+  <meta property="article:author" content="이 화영">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="기록 보관소">
-<meta property="og:title" content="Category">
-<meta property="og:url" content="https://dracolich-kr.github.io/categories/">
+<meta property="og:title" content="[MySql] MySql Replication">
+<meta property="og:url" content="https://dracolich-kr.github.io/mysql/mysql-replication/">
 
 
   <meta property="og:description" content="">
@@ -33,7 +35,11 @@
 
 
 
+  <meta property="article:published_time" content="2026-01-11T00:00:00+00:00">
 
+
+
+  <meta property="article:modified_time" content="2026-01-21T13:59:07+00:00">
 
 
 
@@ -42,7 +48,7 @@
   
 
 
-<link rel="canonical" href="https://dracolich-kr.github.io/categories/">
+<link rel="canonical" href="https://dracolich-kr.github.io/mysql/mysql-replication/">
 
 
 
@@ -83,7 +89,7 @@
 
   </head>
 
-  <body class="layout--categories" dir="ltr">
+  <body class="layout--single" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -136,6 +142,8 @@
 
     <div class="initial-content">
       
+
+
 
 
 
@@ -339,77 +347,145 @@
 
 
 
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title">Category</h1>
-    
-    
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="[MySql] MySql Replication">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="2026-01-11T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2026-01-21 13:59">
 
-
-
-
-
-<ul class="taxonomy__index">
-  
-    
+    <div class="page__inner-wrap">
       
-    
-      
-        <li>
-          <a href="#mysql">
-            <strong>MySql</strong> <span class="taxonomy__count">3</span>
-          </a>
-        </li>
-      
-    
-      
-    
-  
-    
-      
-    
-      
-    
-      
-    
-  
-    
-      
-        <li>
-          <a href="#daily">
-            <strong>Daily</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-    
-      
-        <li>
-          <a href="#gitblog">
-            <strong>GitBlog</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-  
-</ul>
-
-
-
-  
-    
-  
-    
-      <section id="mysql" class="taxonomy__section">
-        <h2 class="archive__subtitle">MySql</h2>
-        <div class="entries-list">
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="https://dracolich-kr.github.io/mysql/mysql-replication/" itemprop="url">[MySql] MySql Replication
+</a>
+          </h1>
           
-            
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
+              <ul class="toc__menu"><li><a href="#replication-이란">Replication 이란?</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p><img src="/assets/images/mysql/logo.png" alt="logo" /></p>
+
+<h2 id="replication-이란">Replication 이란?</h2>
+<p>MySql의 운영을 할 때에는 기본적으로 복제(Replication)를 세팅을 하여 관리를 한다.<br />
+복제를 통해 몇가지 장점을 얻을 수 있다.</p>
+
+<ol>
+  <li>고가용성을 확보하여 데이터베이스의 안정성을 확보.</li>
+  <li>Write (Master) Read (Slave)를 구분하여 데이터베이스의 분산</li>
+  <li>부하가 있는 작업은 Slave에서 처리를 하여 Master에 부하를 감소</li>
+</ol>
+
+<p>등의 성능을 확보 할 수 있다.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#database" class="page__taxonomy-item p-category" style="background-color: #ffffff; color: rgb(0, 0, 0); padding: 2px 8px; border-radius: 4px; text-decoration: none; font-family: 'Arial', sans-serif; font-size: 14px; font-weight: bold;" rel="tag">Database</a><span class="sep">, </span>
+    
+      <a href="/tags/#mysql" class="page__taxonomy-item p-category" style="background-color: #ffffff; color: rgb(0, 0, 0); padding: 2px 8px; border-radius: 4px; text-decoration: none; font-family: 'Arial', sans-serif; font-size: 14px; font-weight: bold;" rel="tag">MySql</a>
+    
+    </span>
+  </p>
 
 
 
-<div class="list__item">
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#mysql" class="page__taxonomy-item p-category" style="background-color: #000000; color: rgb(255, 255, 255); padding: 2px 8px; border-radius: 4px; text-decoration: none; font-family: 'Arial', sans-serif; font-size: 14px; font-weight: bold;" rel="tag">MySql</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time class="dt-published" datetime="2026-01-21">January 21, 2026</time></p>
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/gitblog/Tip/" class="pagination--pager" title="Git Blog 자잘한 내용정리">이전</a>
+    
+    
+      <a href="/mysql/tip/" class="pagination--pager" title="C# 프로젝트 폴더가 다른 위치에 있는 cs파일 참조 By Global Using">다음</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">참고</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -444,166 +520,13 @@
   </article>
 </div>
 
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/mysql/mysql-replication/" rel="permalink" style="color: #ffffff; font-weight: 600; text-decoration: none;">[MySql] MySql Replication
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
     
       
       
 
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          최대 1 분 소요
-        
-      </span>
-    
-  </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-  </article>
-</div>
-
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/mysql/mysql/" rel="permalink" style="color: #ffffff; font-weight: 600; text-decoration: none;">[MySql] MySql 이란?
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          최대 1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-  </article>
-</div>
-
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-  
-
-  
-    
-  
-    
-  
-    
-  
-
-  
-    
-      <section id="daily" class="taxonomy__section">
-        <h2 class="archive__subtitle">Daily</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/daily/first_post/" rel="permalink" style="color: #ffffff; font-weight: 600; text-decoration: none;">첫 로그
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          최대 1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-  </article>
-</div>
-
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-  
-    
-      <section id="gitblog" class="taxonomy__section">
-        <h2 class="archive__subtitle">GitBlog</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -638,16 +561,95 @@
   </article>
 </div>
 
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
     
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/mysql/mysql/" rel="permalink" style="color: #ffffff; font-weight: 600; text-decoration: none;">[MySql] MySql 이란?
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/daily/first_post/" rel="permalink" style="color: #ffffff; font-weight: 600; text-decoration: none;">첫 로그
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
   
 
-
-
-  </div>
 </div>
 
       
