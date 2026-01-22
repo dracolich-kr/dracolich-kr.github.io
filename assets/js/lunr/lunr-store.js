@@ -23,7 +23,7 @@ var store = [{
         "url": "/mysql/mysql-replication/",
         "teaser": null
       },{
-        "title": "C# 프로젝트 폴더가 다른 위치에 있는 cs파일 참조 By Global Using",
+        "title": "[Tip] C# 프로젝트 폴더가 다른 위치에 있는 cs파일 참조 By Global Using",
         "excerpt":"기존 using 문의 경우 개별 파일마다 개별로 선언을 해서처리를 해야해서 매우 불편하고 사용하기 힘든 단점이 많은 기능이다. 하지만 C# 10에 Global Using이 추가 되면서 이젠 프로젝트 단위로 하나의 cs 파일에 선언을 하면 다른 파일에서도 별도의 선언을 할 필요 없이 편하게 사용을 할 수 있게 되었다. 주로 맴버 타입을 재정의 하는...","categories": ["CSharp"],
         "tags": ["CSharp","Programming"],
         "url": "/csharp/tip/",
