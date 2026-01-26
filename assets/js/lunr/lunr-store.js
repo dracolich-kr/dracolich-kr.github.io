@@ -28,4 +28,10 @@ var store = [{
         "tags": ["CSharp","Programming"],
         "url": "/csharp/tip/",
         "teaser": null
+      },{
+        "title": "Wsl 사용법 및 명령어 정리",
+        "excerpt":"개요 윈도우에서 K8S를 설정하기 위해 우분투를 WSL기반으로 설치에 대한 간략한 메뉴얼 및 명령어 정리 입니다. 설치 기본 설치 wsl --install 특정 버전설치 wsl --install &lt;Distribution Name&gt; 명령어 리스트 사용 가능한 Linux 배포 목록 wsl --list --online 설치된 Linux 배포 리스트 wsl --list --verbose 기본 리눅스 변경 wsl --set-default &lt;Distribution Name&gt;...","categories": ["K8S"],
+        "tags": ["K8S","Linux"],
+        "url": "/k8s/WSL/",
+        "teaser": null
       }]
