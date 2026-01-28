@@ -11,14 +11,18 @@ copyCodeButtons.forEach((copyCodeButton, index) => {
     window.navigator.clipboard.writeText(code);
 
     const img = copyCodeButton.querySelector("img");
-    img.src = "/assets/images/check.png";
+
+    const originalSrc = img.dataset.originalSrc || "/assets/images/icon/copy.png";
+    const copiedSrc = img.dataset.copiedSrc || "/assets/images/icon/check.png";
+
+    img.src = copiedSrc;
 
     if (id) {
       clearTimeout(id);
     }
 
     id = setTimeout(() => {
-      img.src = "/assets/images/copy.png";
+      img.src = originalSrc;
     }, 2000);
   });
 });
