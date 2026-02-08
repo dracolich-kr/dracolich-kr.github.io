@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://dracolich-kr.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dracolich-kr.github.io/" rel="alternate" type="text/html" /><updated>2026-01-28T14:43:46+00:00</updated><id>https://dracolich-kr.github.io/feed.xml</id><title type="html">기록 보관소</title><subtitle></subtitle><author><name>이 화영</name></author><entry><title type="html">Wsl 사용법 및 명령어 정리</title><link href="https://dracolich-kr.github.io/kubernetes/WSL/" rel="alternate" type="text/html" title="Wsl 사용법 및 명령어 정리" /><published>2026-01-26T00:00:00+00:00</published><updated>2026-01-26T13:39:35+00:00</updated><id>https://dracolich-kr.github.io/kubernetes/WSL</id><content type="html" xml:base="https://dracolich-kr.github.io/kubernetes/WSL/"><![CDATA[<h2 id="개요">개요</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://dracolich-kr.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dracolich-kr.github.io/" rel="alternate" type="text/html" /><updated>2026-02-08T13:51:14+00:00</updated><id>https://dracolich-kr.github.io/feed.xml</id><title type="html">기록 보관소</title><subtitle></subtitle><author><name>이 화영</name></author><entry><title type="html">Wsl 사용법 및 명령어 정리</title><link href="https://dracolich-kr.github.io/kubernetes/WSL/" rel="alternate" type="text/html" title="Wsl 사용법 및 명령어 정리" /><published>2026-01-26T00:00:00+00:00</published><updated>2026-01-26T13:39:35+00:00</updated><id>https://dracolich-kr.github.io/kubernetes/WSL</id><content type="html" xml:base="https://dracolich-kr.github.io/kubernetes/WSL/"><![CDATA[<h2 id="개요">개요</h2>
 <p>윈도우에서 K8S를 설정하기 위해 우분투를 WSL기반으로 설치에 대한 간략한 메뉴얼 및 명령어 정리 입니다.</p>
 
 <h2 id="설치">설치</h2>
@@ -58,7 +58,7 @@
 </code></pre></div></div>
 
 <h2 id="참조-자료">참조 자료</h2>
-<p><a href="https://learn.microsoft.com/ko-kr/windows/wsl/about">윈도우 WSL 메뉴얼</a></p>]]></content><author><name>이 화영</name></author><category term="Kubernetes" /><category term="K8S" /><category term="Linux" /></entry><entry><title type="html">[Tip] C# 프로젝트 폴더가 다른 위치에 있는 cs파일 참조 By Global Using</title><link href="https://dracolich-kr.github.io/csharp/tip/" rel="alternate" type="text/html" title="[Tip] C# 프로젝트 폴더가 다른 위치에 있는 cs파일 참조 By Global Using" /><published>2026-01-21T00:00:00+00:00</published><updated>2026-01-22T14:23:01+00:00</updated><id>https://dracolich-kr.github.io/csharp/tip</id><content type="html" xml:base="https://dracolich-kr.github.io/csharp/tip/"><![CDATA[<p>기존 using 문의 경우 개별 파일마다 개별로 선언을 해서처리를 해야해서 매우 불편하고 사용하기 힘든 단점이 많은 기능이다.</p>
+<p><a href="https://learn.microsoft.com/ko-kr/windows/wsl/about">윈도우 WSL 메뉴얼</a></p>]]></content><author><name>이 화영</name></author><category term="Kubernetes" /><category term="K8S" /><category term="Linux" /></entry><entry><title type="html">[Tip] C# 프로젝트 폴더가 다른 위치에 있는 cs파일 참조 By Global Using</title><link href="https://dracolich-kr.github.io/csharp/tip/" rel="alternate" type="text/html" title="[Tip] C# 프로젝트 폴더가 다른 위치에 있는 cs파일 참조 By Global Using" /><published>2026-01-21T00:00:00+00:00</published><updated>2026-02-08T13:50:18+00:00</updated><id>https://dracolich-kr.github.io/csharp/tip</id><content type="html" xml:base="https://dracolich-kr.github.io/csharp/tip/"><![CDATA[<p>기존 using 문의 경우 개별 파일마다 개별로 선언을 해서처리를 해야해서 매우 불편하고 사용하기 힘든 단점이 많은 기능이다.</p>
 
 <p>하지만 C# 10에 Global Using이 추가 되면서 이젠 프로젝트 단위로 하나의 cs 파일에 선언을 하면 다른 파일에서도 별도의 선언을 할 필요 없이 편하게 사용을 할 수 있게 되었다.</p>
 
@@ -66,7 +66,6 @@
 
 <div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">global</span> <span class="k">using</span> <span class="nn">ActorIdx</span> <span class="p">=</span> <span class="n">Int32</span><span class="p">;</span>
 <span class="k">global</span> <span class="k">using</span> <span class="nn">UserName</span> <span class="p">=</span> <span class="kt">string</span><span class="p">;</span>
-
 </code></pre></div></div>
 
 <p>하지만 우리가 복수개의 프로젝트를 구성하는 경우 동일한 cs 파일을 매번 추가해야하는 단점이 있다.<br />
